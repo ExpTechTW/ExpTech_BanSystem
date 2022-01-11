@@ -1,0 +1,12 @@
+ConfigVersion: 1
+#(cht) 請不要更改上述設置，否則插件可能會無法運行
+#(en) Please do not change the above settings, otherwise the plugin may not work
+PermittedViolationLevel: 0
+#(cht) 允許加入伺服器的違規等級
+#(en) Violation level allowed to be added to the server
+PlayerBanTime: 0
+#(cht) 玩家在被封禁後多久可以再次加入伺服器，設置為 0 表示不允許任何曾被封禁的玩家加入伺服器，設定為 86400 秒為一天 (單位為秒)
+#(en) How long can a player rejoin the server after being banned? Setting to 0 means that any previously banned players are not allowed to join the server,Set to 86400 seconds as one day (Unit is second)
+ShowPlayerInfo: true
+#(cht) 是否在玩家加入時，在控制台顯示玩家訊息
+#(en) Whether to display player information on the console when a player joins
