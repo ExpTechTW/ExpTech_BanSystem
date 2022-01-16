@@ -3,7 +3,6 @@ package main;
 import commands.commands;
 import core.logger;
 import event.eventlistener;
-import handler.timer;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -35,7 +34,6 @@ public class main extends JavaPlugin implements Listener {
             Bukkit.getServer().shutdown();
         }else if(VersionCode>=Support) {
             folder = getDataFolder();
-            timer.main();
             getServer().getPluginManager().registerEvents(new eventlistener(), this);
             Objects.requireNonNull(getCommand("bs")).setExecutor(new commands(this));
             logger.log("INFO", "BanSystem_onEnable", "Loading Success! - Designed by ExpTech.tw!");
